@@ -3,8 +3,6 @@
   --text: #212529;
   --card-bg: #ffffff;
   --accent: #ffeb3b;
-  overflow-y: auto;
-  min-height: 50vh;
 }
 
 html.dark {
@@ -14,7 +12,8 @@ html.dark {
 }
 
 body {
-  height: 50vh;
+  min-height: 100vh;
+  overflow: hidden;
 }
 html,
 body,
@@ -22,7 +21,6 @@ html.dark body {
   background: var(--bg);
   color: var(--text);
   font-family: "Inter", sans-serif;
-  min-height: auto;
 }
 
 .navbar,
@@ -102,7 +100,7 @@ html.dark .icons {
 
 .about-section {
   position: relative;
-  min-height: auto;
+  /* min-height: auto; */
 }
 
 .about-hand {
@@ -147,7 +145,7 @@ html.dark .icons {
 .yellowvector {
   width: 300px;
   height: 480px;
-  margin-left: 1090px;
+  margin-left: 1000px;
   margin-top: -400px;
 }
 
