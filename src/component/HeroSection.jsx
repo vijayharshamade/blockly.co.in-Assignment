@@ -23,7 +23,6 @@ const HeroSection = () => {
     <section id="home" className="py-5 mt-lg-4">
       <Container>
         <Row className="align-items-center g-5">
-          {/* Left column */}
           <Col lg={6} className="order-2 order-lg-1">
             <span className=" hello_text  d-inline-block mb-3 text-white fw-bold px-4 py-2">
               Hello!
@@ -54,7 +53,6 @@ const HeroSection = () => {
               </Button>
             </div>
 
-            {/* Social icons */}
             <div className="icons1">
               <ul className="list-unstyled d-flex flex-lg-column gap-3 fs-5 mt-lg-2 ">
                 {socialIcons.map(({ name, img }) => (
@@ -73,7 +71,6 @@ const HeroSection = () => {
             </div>
           </Col>
 
-          {/* Right column */}
           <Col
             lg={6}
             className="order-1 order-lg-2 d-flex justify-content-center"

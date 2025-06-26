@@ -64,7 +64,6 @@ html.dark .icons {
   margin-top: -120px;
 }
 
-/* ── Hero image wrapper ───────────────────────────────────────*/
 .hero-img-wrapper {
   position: relative;
   width: 340px;
@@ -96,7 +95,6 @@ html.dark .icons {
   z-index: 3;
   pointer-events: none;
 }
-/* =======================About Section================================== */
 
 .about_text {
   width: 650px;
@@ -149,7 +147,7 @@ html.dark .icons {
 .yellowvector {
   width: 300px;
   height: 480px;
-  margin-left: 880px;
+  margin-left: 1090px;
   margin-top: -400px;
 }
 

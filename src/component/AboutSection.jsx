@@ -23,7 +23,6 @@ const socialIcons = [
 const AboutSection = () => (
   <section id="about" className="about-section py-5">
     <Container className="position-relative">
-      {/*  Hand graphic  */}
       <div className="HandImg">
         <img
           src={AboutHand}
@@ -41,7 +40,6 @@ const AboutSection = () => (
 
       <hr className="mb-4 col-md-5 mx-auto" />
 
-      {/*  Body copy  */}
       <p className="about_text  mx-auto">
         This is it. Anish Kr. Sinha is an Indian UI/UX Designer & Front End
         Developer with a passion for designing beautiful and fuctional user
@@ -63,7 +61,6 @@ const AboutSection = () => (
       <img src={Vector3} alt="" className="yellowvector" />
       <img src={Vector4} alt="" className="yellowvector4" />
       <img src={Vector5} alt="" className="grayvector" />
-      {/* Social icons */}
       <div className="icon1">
         <ul className="list-unstyled d-flex flex-lg-column gap-3 fs-5 mt-lg-2 ">
           {socialIcons.map(({ name, img }) => (
