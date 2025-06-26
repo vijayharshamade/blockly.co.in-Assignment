@@ -1,0 +1,178 @@
+:root {
+  --bg: #ffffff;
+  --text: #212529;
+  --card-bg: #ffffff;
+  --accent: #ffeb3b;
+  overflow-y: auto;
+  min-height: 50vh;
+}
+
+html.dark {
+  --bg: #0d1117;
+  --text: #e6edf3;
+  --card-bg: #161b22;
+}
+
+body {
+  height: 50vh;
+}
+html,
+body,
+html.dark body {
+  background: var(--bg);
+  color: var(--text);
+  font-family: "Inter", sans-serif;
+  min-height: auto;
+}
+
+.navbar,
+.nav-link,
+.navbar-brand {
+  background: transparent !important;
+  color: var(--text) !important;
+}
+
+.card {
+  background: var(--card-bg);
+  border-color: rgba(255, 255, 255, 0.08);
+}
+
+.icons {
+  transition: filter 0.25s ease;
+  width: 30px;
+  height: 30px;
+}
+html.dark .icons {
+  filter: brightness(0) invert(1) contrast(1.1);
+}
+
+.hello_text {
+  border-bottom-right-radius: 20px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  background-image: linear-gradient(
+    90deg,
+    rgb(65, 230, 230) 0%,
+    rgb(191, 188, 188) 100%
+  );
+}
+
+.name_btn {
+  margin: 70px 0 0 70px;
+}
+.icons {
+  margin-top: -120px;
+}
+
+/* ── Hero image wrapper ───────────────────────────────────────*/
+.hero-img-wrapper {
+  position: relative;
+  width: 340px;
+  height: 340px;
+  margin-bottom: 260px;
+}
+
+.hero-blob {
+  position: absolute;
+  inset: 0;
+  background: var(--accent);
+  border-radius: 80% 50% 95% 95% / 80% 60% 70% 90%;
+  z-index: 0;
+}
+
+.hero-img {
+  position: absolute;
+  inset: 15% 12%;
+  width: 90%;
+  border-radius: 50%;
+  filter: grayscale(100%);
+  z-index: 2;
+  margin-top: -70px;
+}
+
+.hero-frame {
+  position: absolute;
+  inset: -12px;
+  z-index: 3;
+  pointer-events: none;
+}
+/* =======================About Section================================== */
+
+.about_text {
+  width: 650px;
+}
+
+.about-section {
+  position: relative;
+  min-height: auto;
+}
+
+.about-hand {
+  position: absolute;
+
+  right: -50px;
+  top: 45%;
+  transform: translateY(-50%);
+  width: 280px;
+  max-width: 30vw;
+  pointer-events: none;
+  user-select: none;
+  z-index: 0;
+}
+.HandImg {
+  width: 250px;
+  position: absolute;
+  background-color: #d1d1d1;
+  left: -90px;
+  height: 310px;
+  border-bottom-left-radius: 70%;
+  border-bottom-right-radius: 70%;
+  border-top-left-radius: 30%;
+  border-top-right-radius: 40%;
+  z-index: 0;
+}
+.about_icon {
+  margin-top: -660px;
+  row-gap: -10px;
+}
+.icon1 {
+  position: absolute;
+  top: 555px;
+}
+
+@media (max-width: 767.98px) {
+  .about-hand {
+    display: none;
+  }
+}
+
+.yellowvector {
+  width: 300px;
+  height: 480px;
+  margin-left: 880px;
+  margin-top: -400px;
+}
+
+.yellowvector4 {
+  width: 250px;
+  height: 200px;
+  margin-left: 90px;
+  margin-top: -90px;
+}
+.grayvector {
+  width: 200px;
+  height: 250px;
+  margin-left: 400px;
+  margin-top: -120px;
+}
+
+.about_icon {
+  filter: none;
+}
+
+html[data-bs-theme="dark"] .about_icon,
+html.dark .about_icon {
+  filter: brightness(0) invert(1);
+
+  transition: filter 0.15s ease-in-out;
+}
