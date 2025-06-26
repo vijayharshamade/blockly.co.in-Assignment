@@ -1,5 +1,6 @@
--This is a portfolio website build using React js and bootstrap.
--Click About To see About Component
--Implemented Navbar from Navbar Component from react-bootstrap.
--stored Theme data in LocalStorage and retrived Theme data using localStorage.getItem and set the Theme with localStorage.setItem methods.
--Used useState and UseEffect Hooks to manage state and to set theme to the website
+- This is a portfolio website built using React.js and Bootstrap.  
+- Click **About** to see the About component.  
+- Implemented the Navbar using `react-bootstrap`'s `Navbar` component.  
+- Stored theme data in `localStorage` and retrieved it using `localStorage.getItem`.  
+- Set theme using `localStorage.setItem`.  
+- Used `useState` and `useEffect` hooks to manage state and apply the theme.
