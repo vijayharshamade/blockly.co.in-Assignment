@@ -1,2 +1,5 @@
-This is a portfolio task using React js and bootstrap.
-Click About To see About Component
+-This is a portfolio website build using React js and bootstrap.
+-Click About To see About Component
+-Implemented Navbar from Navbar Component from react-bootstrap.
+-stored Theme data in LocalStorage and retrived Theme data using localStorage.getItem and set the Theme with localStorage.setItem methods.
+-Used useState and UseEffect Hooks to manage state and to set theme to the website
